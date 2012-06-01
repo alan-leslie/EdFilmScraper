@@ -16,12 +16,8 @@ public class PlacePeriod {
     PlacePeriod(Period newPeriod, String venueName){
         thePeriod = newPeriod;
         theVenueName = venueName;
-        String[] venueNameBits = theVenueName.split(" ");
-        for(int i = 0; i < venueNameBits.length; ++i){
-        // TODO - probably need to strip blanks and numbers             
-        }
-
-        thePosition = PositionMap.getInstance().getPosition(venueNameBits[0]);
+        String venueNameStem = theVenueName.replaceAll("\\d*$", "").trim();
+        thePosition = PositionMap.getInstance().getPosition(venueNameStem);
     }
 
     public Period getPeriod() {
