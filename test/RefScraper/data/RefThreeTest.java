@@ -21,6 +21,7 @@ public class RefThreeTest {
     /**
      * 
      */
+//  TODO -  http://www.edfilmfest.org.uk/films/2012/sleepless-night
     @Test
     public void testRefThreeSun() {
         String theTitle = "Sun Don't Shine";
@@ -31,9 +32,10 @@ public class RefThreeTest {
         
         assertEquals(true, completed);
         
-        Period thePeriod = theTestRef.getPeriods().get(0);
+        PlacePeriod thePlacePeriod = theTestRef.getPlacePeriods().get(0);
 
-        assertEquals(2, theTestRef.getPeriods().size());
+        assertEquals(2, theTestRef.getPlacePeriods().size());
+        Period thePeriod = thePlacePeriod.getPeriod();
         assertEquals(false, thePeriod.hasDuration());
         Calendar startDate = new GregorianCalendar(TimeZone.getTimeZone( "Europe/London" ));
         startDate.setTime(thePeriod.getStartDate());
@@ -50,7 +52,7 @@ public class RefThreeTest {
 //        assertEquals(20, endDate.get(Calendar.HOUR_OF_DAY));
 //        assertEquals(30, endDate.get(Calendar.MINUTE));
         
-        Position thePosition = theTestRef.getPosition();
+        Position thePosition = thePlacePeriod.getPosition();
         String theLat = thePosition.getLatitude();
         String theLong = thePosition.getLongitude();
         float theLatAsFloat = Float.parseFloat(theLat);

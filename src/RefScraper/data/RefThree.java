@@ -18,17 +18,17 @@ import java.util.logging.Logger;
 public class RefThree implements Comparable {
 
     String theName;
-    private Position thePosition;
+//    private Position thePosition;
     private URL theLocationRef;
-    private URL thePlace;
+//    private URL thePlace;
     private URL theURL;
     private String theHREF;
     private String theDirector = "";
     private String theCountry = "";
     private String theDuration = "";
-    private String theVenueName = "";
+//    private String theVenueName = "";
     private String theDatePeriodString = "";
-    private List<Period> thePeriods = null;
+    private List<PlacePeriod> thePlacePeriods = null;
     
     private final Logger theLogger;
 
@@ -62,18 +62,18 @@ public class RefThree implements Comparable {
      */
     public RefThree(RefThree theOther) {
         theName = theOther.theName;
-        if (theOther.thePosition == null) {
-            thePosition = null;
-        } else {
-            thePosition = new Position(theOther.thePosition.getLatitude(), theOther.thePosition.getLongitude());
-        }
+//        if (theOther.thePosition == null) {
+//            thePosition = null;
+//        } else {
+//            thePosition = new Position(theOther.thePosition.getLatitude(), theOther.thePosition.getLongitude());
+//        }
         theLocationRef = theOther.theLocationRef;
-        thePlace = theOther.thePlace;
+//        thePlace = theOther.thePlace;
         theURL = theOther.theURL;
-        theVenueName = theOther.theVenueName;
+//        theVenueName = theOther.theVenueName;
         theDirector = theOther.theDirector;
         theDuration = theOther.theDuration;
-        thePeriods = theOther.thePeriods;
+        thePlacePeriods = theOther.thePlacePeriods;
         theDatePeriodString = theOther.theDatePeriodString;
         theLogger = theOther.theLogger;
     }
@@ -95,7 +95,11 @@ public class RefThree implements Comparable {
         DateFormat theDateTimeFormat = new SimpleDateFormat("EEE MMM dd HH:mm:ss zzz yyyy");
         theDateTimeFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
         
-        for(Period thePeriod: thePeriods){
+        for(PlacePeriod thePlacePeriod: thePlacePeriods){
+            Period thePeriod = thePlacePeriod.getPeriod();
+            String theVenueName = thePlacePeriod.getVenueName();
+            Position thePosition = thePlacePeriod.getPosition();
+            
             DateFormat theDateFormat = new SimpleDateFormat("EEE MMM dd");
             theDateFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
             String dateString = theDateFormat.format(thePeriod.getStartDate());
@@ -260,9 +264,9 @@ public class RefThree implements Comparable {
      * 
      * @return - the position 
      */
-    public Position getPosition() {
-        return thePosition;
-    }
+//    public Position getPosition() {
+//        return thePosition;
+//    }
 
     /**
      * attempt to fill in all of the placemark data
@@ -271,30 +275,7 @@ public class RefThree implements Comparable {
     public boolean complete() {
         try {
             FilmFestEventDetailPage thePage = new FilmFestEventDetailPage(theURL, theDatePeriodString, theLogger);
-
-            // in this case the venue is set at the same time as the peridios
-            // so make sure period set is called first
-            thePeriods = thePage.getPeriods();
-            thePosition = thePage.getPosition();
-            theVenueName = thePage.getVenueName();
-            
-            // try to recover if data is only partially set
-            if ((isPeriodSet() || isPositionSet()) && !(isPeriodSet() && isPositionSet())) {
-                if (!isPeriodSet()) {
-                    Period theKnownPeriod = PeriodMap.getInstance().getPeriod(getId());
-                    if(thePeriods == null){
-                        thePeriods = new ArrayList<Period>();
-                    }
-                    
-                    if(theKnownPeriod != null){
-                        thePeriods.add(theKnownPeriod);
-                    }
-                }
-
-                if (!isPositionSet()) {
-                    thePosition = PositionMap.getInstance().getPosition(theVenueName);
-                }
-            }
+            thePlacePeriods = thePage.getPlacePeriods();
             
             theDuration = thePage.getDuration();
             theDirector = thePage.getDirector();
@@ -314,26 +295,33 @@ public class RefThree implements Comparable {
     /**
      * @return - whether all of the position data has been set
      */
-    private boolean isPositionSet() {
-        return (thePosition != null && thePosition.isComplete());
-    }
+//    private boolean isPositionSet() {
+//        return (thePosition != null && thePosition.isComplete());
+//    }
 
     /**
      * @return - whether all of the period data has been set
      */
-    private boolean isPeriodSet() {
-        if(thePeriods != null && thePeriods.size() > 0){
-            return true;
-        }
-    
-        return false;
-    }
+//    private boolean isPeriodSet() {
+//        if(thePeriods != null && thePeriods.size() > 0){
+//            return true;
+//        }
+//    
+//        return false;
+//    }
 
     /**
      * @return - whether all of the required data has been set
      */
     private boolean isComplete() {
-        boolean retVal = isPositionSet() && isPeriodSet();
+        boolean retVal = !thePlacePeriods.isEmpty();
+        
+        for(PlacePeriod thePlacePeriod: thePlacePeriods){
+            if(!thePlacePeriod.isComplete()){
+                retVal = false;
+            }
+        }   
+        
         return retVal;
     }
 
@@ -345,12 +333,12 @@ public class RefThree implements Comparable {
         return this.getId().compareTo(anotherPlacemarkName);
     }
 
-    public List<Period> getPeriods() {
-        List<Period> retVal = new ArrayList<Period>();
+    public List<PlacePeriod> getPlacePeriods() {
+        List<PlacePeriod> retVal = new ArrayList<PlacePeriod>();
         
-        for(Period thePeriod: thePeriods){
-            Period periodCopy = new Period(thePeriod.getStartDate(), thePeriod.getEndDate());
-            retVal.add(periodCopy);           
+        for(PlacePeriod thePlacePeriod: thePlacePeriods){
+            PlacePeriod theCopy = new PlacePeriod(thePlacePeriod.getPeriod(), thePlacePeriod.getVenueName());
+            retVal.add(theCopy);           
         }
         
         return retVal;

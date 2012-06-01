@@ -83,41 +83,43 @@ public class FilmFestEventDetailPage {
         return thePosition;
     }
 
-    /**
-     * Finds the venue name from the page.
-     * @return -valid venue name or "" if unobtainable
-     */
-    public String getVenueName() {
-        if(theVenueName.isEmpty()){
-            if(theVenueNames.isEmpty()){
-                // report an error
-            } else {
-                // need to check that they all tally
-                String firstVenue = theVenueNames.get(0);
-                String[] venueNameArray = firstVenue.split(" ");
-                String venueStart = venueNameArray[0];
-                
-                for(int i = 1; i < theVenueNames.size(); ++i){
-                    if(!theVenueNames.get(i).contains(venueStart)){
-                        // report a problem
-                    }
-                }
-                
-                theVenueName = venueStart;
-            }
-        }
-//        if (theVenueName.isEmpty()) {
-//            if (detailsData == null) {
-//                detailsData = getDetailsData();
-//            }
-//
-//            if (detailsData != null) {
-//                theVenueName = getVenueNameFromTable(detailsData);
+//    /**
+//     * Finds the venue name from the page.
+//     * @return -valid venue name or "" if unobtainable
+//     */
+//    public String getVenueName() {
+//        if(theVenueName.isEmpty()){
+//            if(theVenueNames.isEmpty()){
+//                // report an error
+//            } else {
+//                // need to check that they all tally
+//                String firstVenue = theVenueNames.get(0);
+//                String[] venueNameArray = firstVenue.split(" ");
+//                
+//                // this needs to just drop off the end number
+//                String venueStart = venueNameArray[0];
+//                
+//                for(int i = 1; i < theVenueNames.size(); ++i){
+//                    if(!theVenueNames.get(i).contains(venueStart)){
+//                        // report a problem
+//                    }
+//                }
+//                
+//                theVenueName = venueStart;
 //            }
 //        }
-
-        return theVenueName;
-    }
+////        if (theVenueName.isEmpty()) {
+////            if (detailsData == null) {
+////                detailsData = getDetailsData();
+////            }
+////
+////            if (detailsData != null) {
+////                theVenueName = getVenueNameFromTable(detailsData);
+////            }
+////        }
+//
+//        return theVenueName;
+//    }
 
     /**
      * Finds the ages name from the page.
@@ -159,8 +161,8 @@ public class FilmFestEventDetailPage {
      * Finds the period from the page.
      * @return -valid period or null if unobtainable
      */
-    public List<Period> getPeriods() {
-        List<Period> thePeriods = new ArrayList<Period>();
+    public List<PlacePeriod> getPlacePeriods() {
+        List<PlacePeriod> thePlacePeriods = new ArrayList<PlacePeriod>();
 
         if (datesTableData == null) {
             datesTableData = getDatesData();
@@ -189,7 +191,8 @@ public class FilmFestEventDetailPage {
                         Date startDate = theDateFormat.parse(startDateTime);
 
                         Period thePeriod = new Period(startDate, startDate);
-                        thePeriods.add(thePeriod);
+                        PlacePeriod thePlacePeriod = new PlacePeriod(thePeriod, fullVenueName);
+                        thePlacePeriods.add(thePlacePeriod);
                     } catch (ParseException ex) {
                         theLogger.log(Level.SEVERE, null, ex);
                     }
@@ -197,7 +200,7 @@ public class FilmFestEventDetailPage {
             }
         }
 
-        return thePeriods;
+        return thePlacePeriods;
     }
 
 //    /*
@@ -289,22 +292,22 @@ public class FilmFestEventDetailPage {
         return retVal;
     }
 
-    /**
-     * Try and get the name of the venue from the main table of the page
-     * @param mainTableData 
-     * @return - valid venue name or null if not obtainable
-     */
-    private String getVenueNameFromTable(NodeList mainTableData) {
-        // second anchor
-        Node theValueNode = getValueNodeFromTable(mainTableData, "Venue details");
-        String retVal = null;
-
-        if (theValueNode != null) {
-            retVal = theValueNode.getTextContent();
-        }
-
-        return retVal;
-    }
+//    /**
+//     * Try and get the name of the venue from the main table of the page
+//     * @param mainTableData 
+//     * @return - valid venue name or null if not obtainable
+//     */
+//    private String getVenueNameFromTable(NodeList mainTableData) {
+//        // second anchor
+//        Node theValueNode = getValueNodeFromTable(mainTableData, "Venue details");
+//        String retVal = null;
+//
+//        if (theValueNode != null) {
+//            retVal = theValueNode.getTextContent();
+//        }
+//
+//        return retVal;
+//    }
 
     /**
      * Try and get ages from the main table of the page

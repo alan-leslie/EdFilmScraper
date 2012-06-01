@@ -346,4 +346,27 @@ public class Period {
 
         return retVal;
     }
+    
+        @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Period other = (Period) obj;
+        if (this.asLongString().equalsIgnoreCase(other.asLongString())){
+            return false;
+        }
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 5;
+        hash = 29 * hash + (this.asLongString().hashCode()); 
+        return hash;
+    }
 }

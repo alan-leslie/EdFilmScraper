@@ -110,4 +110,30 @@ public class Position {
         return retVal;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Position other = (Position) obj;
+        if ((this.theLatitude == null) ? (other.theLatitude != null) : !this.theLatitude.equals(other.theLatitude)) {
+            return false;
+        }
+        if ((this.theLongitude == null) ? (other.theLongitude != null) : !this.theLongitude.equals(other.theLongitude)) {
+            return false;
+        }
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 5;
+        hash = 29 * hash + (this.theLatitude != null ? this.theLatitude.hashCode() : 0);
+        hash = 29 * hash + (this.theLongitude != null ? this.theLongitude.hashCode() : 0);
+        return hash;
+    }
+
 }
