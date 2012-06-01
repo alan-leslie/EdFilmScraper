@@ -27,39 +27,40 @@ public class PageTest {
     @Test
     public void testDetailPage() {
         try {
-//            URL theURL = new URL("http://localhost/the-story-of-time");
-            URL theURL = new URL("http://www.sciencefestival.co.uk/whats-on/categories/talk/the-story-of-time");
+            URL theURL = new URL("http://www.edfilmfest.org.uk/films/2012/sun-dont-shine");
             Logger theLogger = Logger.getLogger(PageTest.class.getName());
 
             FilmFestEventDetailPage thePage = new FilmFestEventDetailPage(theURL, "", theLogger);
 
             URL pageURL = thePage.getURL();
-            String theVenueName = thePage.getVenueName();
-            List<Period> thePeriods = thePage.getPeriods();     // this could be multiples
-            Position thePosition = thePage.getPosition();
-            Period thePeriod = thePeriods.get(0);
+
+            List<PlacePeriod> thePlacePeriods = thePage.getPlacePeriods();     // this could be multiples
+            assertEquals(2, thePlacePeriods.size());
+            
+            PlacePeriod thePlacePeriod = thePlacePeriods.get(0);
+            Position thePosition = thePlacePeriod.getPosition();
+            String theVenueName = thePlacePeriod.getVenueName();
+            Period thePeriod = thePlacePeriod.getPeriod();
 
             assertEquals(theURL, pageURL);
-            assertEquals(1, thePeriods.size());
-            assertEquals(true, thePeriod.hasDuration());
-            Calendar startDate = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
-            startDate.setTime(thePeriod.getStartDate());
-            Calendar endDate = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
-            endDate.setTime(thePeriod.getEndDate());
-            assertEquals(2012, startDate.get(Calendar.YEAR));
-            assertEquals(3, startDate.get(Calendar.MONTH));
-            assertEquals(9, startDate.get(Calendar.DAY_OF_MONTH));
-            assertEquals(17, startDate.get(Calendar.HOUR_OF_DAY));
-            assertEquals(30, startDate.get(Calendar.MINUTE));
-            assertEquals(2012, endDate.get(Calendar.YEAR));
-            assertEquals(3, endDate.get(Calendar.MONTH));
-            assertEquals(9, endDate.get(Calendar.DAY_OF_MONTH));
-            assertEquals(19, endDate.get(Calendar.HOUR_OF_DAY));
-            assertEquals(0, endDate.get(Calendar.MINUTE));
 
-            assert (thePosition.getLatitude().equalsIgnoreCase("55.954868"));
-            assert (thePosition.getLongitude().equalsIgnoreCase("-3.196712"));
-            assert (theVenueName.equalsIgnoreCase("The Jam House"));
+            assertEquals(false, thePeriod.hasDuration());
+            Calendar startDate = new GregorianCalendar(TimeZone.getTimeZone( "Europe/London" ));
+            startDate.setTime(thePeriod.getStartDate());
+            assertEquals(2012, startDate.get(Calendar.YEAR));
+            assertEquals(5, startDate.get(Calendar.MONTH));
+            assertEquals(21, startDate.get(Calendar.DAY_OF_MONTH));
+            assertEquals(18, startDate.get(Calendar.HOUR_OF_DAY));
+            assertEquals(30, startDate.get(Calendar.MINUTE));
+
+            assert (thePosition.getLatitude().equalsIgnoreCase("55.941098"));
+            assert (thePosition.getLongitude().equalsIgnoreCase("-3.217729"));
+            assert (theVenueName.equalsIgnoreCase("Cineworld 11"));
+            
+            assert(thePage.getCountry().equalsIgnoreCase("USA"));
+            assert(thePage.getDirector().equalsIgnoreCase("Amy Seimetz"));
+            String theDuration = thePage.getDuration();
+            assert(theDuration.equalsIgnoreCase("79 mins"));
         } catch (MalformedURLException ex) {
             Logger.getLogger(PageTest.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
@@ -79,8 +80,7 @@ public class PageTest {
     @Test
     public void testListPage() {
         try {
-            URL theURL = new URL("http://localhost/talk_list_page.html");
-//            URL theURL = new URL("http://www.sciencefestival.co.uk/whats-on/categories/talk?sort=date&page=1");
+            URL theURL = new URL("http://www.edfilmfest.org.uk/films?src=cal&date=2012-06-21");
             Logger theLogger = Logger.getLogger(PageTest.class.getName());
 
             FilmFestEventListPage thePage = new FilmFestEventListPage(theURL, theLogger);

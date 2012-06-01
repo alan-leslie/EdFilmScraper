@@ -73,15 +73,15 @@ public class FilmFestEventDetailPage {
         return theURL;
     }
 
-    /**
-     * Finds the position from the page.
-     * @return -valid position or null if unobtainable
-     */
-    public Position getPosition() {
-        // leave this as null so that ref three will pick it up from known positions
-        Position thePosition = null;
-        return thePosition;
-    }
+//    /**
+//     * Finds the position from the page.
+//     * @return -valid position or null if unobtainable
+//     */
+//    public Position getPosition() {
+//        // leave this as null so that ref three will pick it up from known positions
+//        Position thePosition = null;
+//        return thePosition;
+//    }
 
 //    /**
 //     * Finds the venue name from the page.
@@ -154,7 +154,7 @@ public class FilmFestEventDetailPage {
             }
         }
 
-        return theCountry;
+        return theDuration;
     }
 
     /**
@@ -315,12 +315,12 @@ public class FilmFestEventDetailPage {
      * @return valid ages string or "" if not obtainable
      */
     private String getCountryFromList(NodeList mainTableData) {
-        // second list item
-        Node theValueNode = getValueNodeFromTable(mainTableData, "Audience");
+        int listLength = mainTableData.getLength();
         String retVal = "";
-
-        if (theValueNode != null) {
-            retVal = theValueNode.getTextContent();
+        
+        if(listLength > 1){
+            Node theValueNode = mainTableData.item(1);
+            retVal = theValueNode.getTextContent().replace(" /", "").trim();
         }
 
         return retVal;
@@ -383,24 +383,24 @@ public class FilmFestEventDetailPage {
     }
 
     private String getDurationFromList(NodeList detailsData) {
-        // the fourth list item
-        Node theValueNode = getValueNodeFromTable(detailsData, "Type of Event");
+        int listLength = detailsData.getLength();
         String retVal = "";
-
-        if (theValueNode != null) {
-            retVal = theValueNode.getTextContent();
+        
+        if(listLength > 3){
+            Node theValueNode = detailsData.item(3);
+            retVal = theValueNode.getTextContent().trim();
         }
 
         return retVal;
     }
     
        private String getDirectorFromList(NodeList detailsData) {
-        // the first list item
-        Node theValueNode = getValueNodeFromTable(detailsData, "Type of Event");
+        int listLength = detailsData.getLength();
         String retVal = "";
-
-        if (theValueNode != null) {
-            retVal = theValueNode.getTextContent();
+        
+        if(listLength > 0){
+            Node theValueNode = detailsData.item(0);
+            retVal = theValueNode.getTextContent().replace(" /", "").trim();
         }
 
         return retVal;
