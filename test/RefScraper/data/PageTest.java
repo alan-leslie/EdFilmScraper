@@ -72,7 +72,56 @@ public class PageTest {
         }
     }
 
- 
+    /**
+     * 
+     */
+    @Test
+    public void testKillerDetailPage() {
+        try {
+            URL theURL = new URL("http://www.edfilmfest.org.uk/films/2012/killer-joe");
+            Logger theLogger = Logger.getLogger(PageTest.class.getName());
+
+            FilmFestEventDetailPage thePage = new FilmFestEventDetailPage(theURL, "", theLogger);
+
+            URL pageURL = thePage.getURL();
+
+            List<PlacePeriod> thePlacePeriods = thePage.getPlacePeriods();     // this could be multiples
+            assertEquals(1, thePlacePeriods.size());
+            
+            PlacePeriod thePlacePeriod = thePlacePeriods.get(0);
+            Position thePosition = thePlacePeriod.getPosition();
+            String theVenueName = thePlacePeriod.getVenueName();
+            Period thePeriod = thePlacePeriod.getPeriod();
+
+            assertEquals(theURL, pageURL);
+
+            assertEquals(false, thePeriod.hasDuration());
+            Calendar startDate = new GregorianCalendar(TimeZone.getTimeZone( "Europe/London" ));
+            startDate.setTime(thePeriod.getStartDate());
+            assertEquals(2012, startDate.get(Calendar.YEAR));
+            assertEquals(5, startDate.get(Calendar.MONTH));
+            assertEquals(20, startDate.get(Calendar.DAY_OF_MONTH));
+            assertEquals(21, startDate.get(Calendar.HOUR_OF_DAY));
+            assertEquals(30, startDate.get(Calendar.MINUTE));
+
+            assert (thePosition.getLatitude().equalsIgnoreCase("55.946821"));
+            assert (thePosition.getLongitude().equalsIgnoreCase("-3.18608"));
+            assert (theVenueName.equalsIgnoreCase("Festival Theatre"));
+            
+            assert(thePage.getCountry().equalsIgnoreCase("USA"));
+            assert(thePage.getDirector().equalsIgnoreCase("William Friedkin"));
+            String theDuration = thePage.getDuration();
+            assert(theDuration.equalsIgnoreCase("103 mins"));
+        } catch (MalformedURLException ex) {
+            Logger.getLogger(PageTest.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(PageTest.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (ParserConfigurationException ex) {
+            Logger.getLogger(PageTest.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (SAXException ex) {
+            Logger.getLogger(PageTest.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    } 
 
     /**
      * 

@@ -316,10 +316,14 @@ public class RefThree implements Comparable {
     private boolean isComplete() {
         boolean retVal = !thePlacePeriods.isEmpty();
         
+        int i = 0;
         for(PlacePeriod thePlacePeriod: thePlacePeriods){
             if(!thePlacePeriod.isComplete()){
+                theLogger.log(Level.WARNING, "Unable to complete {0}", getId());
+                theLogger.log(Level.WARNING, "Unable to complete index {0}", i);                
                 retVal = false;
             }
+            ++i;
         }   
         
         return retVal;
