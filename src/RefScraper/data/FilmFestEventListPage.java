@@ -86,7 +86,7 @@ public class FilmFestEventListPage {
             for (int i = 0; i < listLength; ++i) {
                 Node childNode = (Node) linkNodeList.item(i);
                 
-                String anchorSearchString = "./a";
+                String anchorSearchString = "./h3/a";
                 XPath anchorXPath = XPathFactory.newInstance().newXPath();
                 Node anchorNode = (Node) anchorXPath.evaluate(anchorSearchString, childNode, XPathConstants.NODE);
                 

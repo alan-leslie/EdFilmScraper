@@ -15,10 +15,9 @@ public class PlacePeriod {
     
     PlacePeriod(Period newPeriod, String venueName){
         thePeriod = newPeriod;
-        theVenueName = venueName;
-        String venueNameStem = theVenueName.replaceAll("\\d*$", "").trim().replace(" ", "");
+        theVenueName = venueName.replaceAll("\\d*$", "").trim();
+        String venueNameStem = theVenueName.replace(" ", "");
         thePosition = PositionMap.getInstance().getPosition(venueNameStem);
-        int x = 0;
     }
 
     public Period getPeriod() {

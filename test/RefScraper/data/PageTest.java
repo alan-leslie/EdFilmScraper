@@ -137,7 +137,7 @@ public class PageTest {
             
             int candSize = candidates.size();
 
-            assertEquals(14, candSize);
+            assertEquals(15, candSize);
             String theFirstURL = candidates.get(0).getHREF();
             String theFirstTitle = candidates.get(0).getText().trim();
 

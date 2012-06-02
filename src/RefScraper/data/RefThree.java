@@ -112,7 +112,7 @@ public class RefThree implements Comparable {
             ps.println();
             ps.print("<name>");
             ps.println();
-            ps.print(theName);
+            ps.print(theName.trim());
             ps.println();
             ps.print("</name>");
             ps.println();
@@ -132,8 +132,6 @@ public class RefThree implements Comparable {
             }
 
             ps.print("</description>");
-            ps.println();
-            ps.print("<styleUrl>#exampleStyleMap</styleUrl>");
             ps.println();
 
             if (thePeriod.hasDuration()) {
@@ -235,7 +233,7 @@ public class RefThree implements Comparable {
             }
 
             ps.print("title=\"");
-            ps.print(theName);
+            ps.print(theName.trim());
             ps.print("\">");
             ps.println();
             ps.print("</event>");
