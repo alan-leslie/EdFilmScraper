@@ -77,7 +77,7 @@ public class FilmFestEventListPage {
         NodeList linkNodeList = null;
 
         try {
-            String searchString = "html//div[@class='entry-content']/table/tbody/tr/td";
+            String searchString = "html//li[@class='show_listing']";
             XPath linkXpath = XPathFactory.newInstance().newXPath();
             linkNodeList = (NodeList) linkXpath.evaluate(searchString, theDocument, XPathConstants.NODESET);
 

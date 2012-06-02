@@ -1,0 +1,3392 @@
+02-Jun-2012 03:01:16 RefScraper.Controller run
+INFO: Controller run start.
+02-Jun-2012 03:01:17 RefScraper.Constructor call
+INFO: Constructing fom page http://www.edfilmfest.org.uk/films?src=cal&date=2012-06-20
+02-Jun-2012 03:01:20 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Killer Joe
+	
+	 
+
+02-Jun-2012 03:01:20 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Killer Joe
+	
+	 
+
+02-Jun-2012 03:01:20 RefScraper.Constructor call
+INFO: Constructing fom page http://www.edfilmfest.org.uk/films?src=cal&date=2012-06-20 - complete
+02-Jun-2012 03:01:20 RefScraper.Constructor call
+INFO: Constructing fom page http://www.edfilmfest.org.uk/films?src=cal&date=2012-06-21
+02-Jun-2012 03:01:21 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			PP Rider (Shonben raida)
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Gattu
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			differently, Molussia (anders, Molussien)
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Evelyn
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Mirage (Mi-wol-do Ga-neun Gil)
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Future My Love
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Black’s Game (Svartur á leik)
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Borrowed Time
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Sun Don’t Shine
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Lawrence of Arabia
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Amok
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Fukushima: Memories of the Lost Landscape (Soma kanka: dai ichi bu - ubawareta tochi no kioku)
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			It’s the Earth Not the Moon (É na terra não é na lua)
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Pusher
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			PP Rider (Shonben raida)
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Gattu
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			differently, Molussia (anders, Molussien)
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Evelyn
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Mirage (Mi-wol-do Ga-neun Gil)
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Future My Love
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Black’s Game (Svartur á leik)
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Borrowed Time
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Sun Don’t Shine
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Lawrence of Arabia
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Amok
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Fukushima: Memories of the Lost Landscape (Soma kanka: dai ichi bu - ubawareta tochi no kioku)
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			It’s the Earth Not the Moon (É na terra não é na lua)
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Pusher
+	
+	 
+
+02-Jun-2012 03:01:21 RefScraper.Constructor call
+INFO: Constructing fom page http://www.edfilmfest.org.uk/films?src=cal&date=2012-06-21 - complete
+02-Jun-2012 03:01:21 RefScraper.Constructor call
+INFO: Constructing fom page http://www.edfilmfest.org.uk/films?src=cal&date=2012-06-22
+02-Jun-2012 03:01:23 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			The Catch (Gyoei no mure)
+	
+	 
+
+02-Jun-2012 03:01:23 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Short Films 1: Identity and Revolution
+	
+	 
+
+02-Jun-2012 03:01:23 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Nuclear Nation
+	
+	 
+
+02-Jun-2012 03:01:23 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Gattu
+	
+	 
+
+02-Jun-2012 03:01:23 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Tahrir: Liberation Square
+	
+	 
+
+02-Jun-2012 03:01:23 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			7 Days in Havana (7 días en La Habana)
+	
+	 
+
+02-Jun-2012 03:01:23 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Rent-a-Cat (Rentaneko)
+	
+	 
+
+02-Jun-2012 03:01:23 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Either Way (Á annan veg)
+	
+	 
+
+02-Jun-2012 03:01:23 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Kid-Thing
+	
+	 
+
+02-Jun-2012 03:01:23 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			A Woman's Revenge (A Vingança de uma Mulher)
+	
+	 
+
+02-Jun-2012 03:01:23 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Of Skies and Earth (Sa Kanto ng Ulap at Lupa)
+	
+	 
+
+02-Jun-2012 03:01:23 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			The Mirror Never Lies (Laut bercermin)
+	
+	 
+
+02-Jun-2012 03:01:23 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			The Catch (Gyoei no mure)
+	
+	 
+
+02-Jun-2012 03:01:23 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Short Films 1: Identity and Revolution
+	
+	 
+
+02-Jun-2012 03:01:23 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Nuclear Nation
+	
+	 
+
+02-Jun-2012 03:01:23 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Tahrir: Liberation Square
+	
+	 
+
+02-Jun-2012 03:01:23 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			7 Days in Havana (7 días en La Habana)
+	
+	 
+
+02-Jun-2012 03:01:23 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Rent-a-Cat (Rentaneko)
+	
+	 
+
+02-Jun-2012 03:01:23 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Either Way (Á annan veg)
+	
+	 
+
+02-Jun-2012 03:01:23 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Kid-Thing
+	
+	 
+
+02-Jun-2012 03:01:23 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			A Woman's Revenge (A Vingança de uma Mulher)
+	
+	 
+
+02-Jun-2012 03:01:23 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Of Skies and Earth (Sa Kanto ng Ulap at Lupa)
+	
+	 
+
+02-Jun-2012 03:01:23 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			The Mirror Never Lies (Laut bercermin)
+	
+	 
+
+02-Jun-2012 03:01:23 RefScraper.Constructor call
+INFO: Constructing fom page http://www.edfilmfest.org.uk/films?src=cal&date=2012-06-22 - complete
+02-Jun-2012 03:01:23 RefScraper.Constructor call
+INFO: Constructing fom page http://www.edfilmfest.org.uk/films?src=cal&date=2012-06-23
+02-Jun-2012 03:01:24 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Florentina Hubaldo, CTE
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Moving (Ohikkoshi)
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Either Way (Á annan veg)
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Sun Don’t Shine
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Fengming: A Chinese Memoir (He Fengming)
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Borrowed Time
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Dr Seuss' The Lorax
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			No Man's Zone (Mujin chitai)
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Au Pair
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			The Life and Times of Paul the Psychic Octopus
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Fusion Shorts
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Life Just Is
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Typhoon Club (Taifu kurabu)
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Siblings - For Better or Worse (Sadan er søskende)
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Florentina Hubaldo, CTE
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Moving (Ohikkoshi)
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Fengming: A Chinese Memoir (He Fengming)
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Dr Seuss' The Lorax
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			No Man's Zone (Mujin chitai)
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Au Pair
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			The Life and Times of Paul the Psychic Octopus
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Fusion Shorts
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Life Just Is
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Typhoon Club (Taifu kurabu)
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Siblings - For Better or Worse (Sadan er søskende)
+	
+	 
+
+02-Jun-2012 03:01:24 RefScraper.Constructor call
+INFO: Constructing fom page http://www.edfilmfest.org.uk/films?src=cal&date=2012-06-23 - complete
+02-Jun-2012 03:01:24 RefScraper.Constructor call
+INFO: Constructing fom page http://www.edfilmfest.org.uk/films?src=cal&date=2012-06-24
+02-Jun-2012 03:01:26 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			The Friends (Natsu no niwa)
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Flicker (Flimmer)
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Tahrir: Liberation Square
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Siblings - For Better or Worse (Sadan er søskende)
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Chapiteau Show
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			THE 99 Unbound
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Coal Money + Brutality Factory
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Dr Seuss' The Lorax
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Rent-a-Cat (Rentaneko)
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Saudade (Saudaji)
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			In Person: Masterclass with Wang Bing
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Lovely Molly
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			McLaren Animation 1
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Never Too Late (Af paam lo meuchar miday)
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Lost Chapter of Snow: Passion (Yuki no dansho - jonetsu)
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			The Friends (Natsu no niwa)
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Flicker (Flimmer)
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Chapiteau Show
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			THE 99 Unbound
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Coal Money + Brutality Factory
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Saudade (Saudaji)
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			In Person: Masterclass with Wang Bing
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Lovely Molly
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			McLaren Animation 1
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Never Too Late (Af paam lo meuchar miday)
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Lost Chapter of Snow: Passion (Yuki no dansho - jonetsu)
+	
+	 
+
+02-Jun-2012 03:01:26 RefScraper.Constructor call
+INFO: Constructing fom page http://www.edfilmfest.org.uk/films?src=cal&date=2012-06-24 - complete
+02-Jun-2012 03:01:26 RefScraper.Constructor call
+INFO: Constructing fom page http://www.edfilmfest.org.uk/films?src=cal&date=2012-06-25
+02-Jun-2012 03:01:28 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Kazahana (Kaza-hana)
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			BAFTA in Scotland presents an Introduction to Acting
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			McLaren Animation 2
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			1 Day
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			The Lifeguard (El Salvavidas)
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			The Ambassador (Ambassadøren)
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Exit Elena
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Sauna on Moon (Chang’E)
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Unconditional
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Kotoko
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Niño
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			One.Two.One (Yek.Do.Yek)
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			THE 99 Unbound
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			¡Vivan las Antipodas!
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Young Dudes
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Kazahana (Kaza-hana)
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			BAFTA in Scotland presents an Introduction to Acting
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			McLaren Animation 2
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			1 Day
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			The Lifeguard (El Salvavidas)
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			The Ambassador (Ambassadøren)
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Exit Elena
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Sauna on Moon (Chang’E)
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Unconditional
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Kotoko
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Niño
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			One.Two.One (Yek.Do.Yek)
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			¡Vivan las Antipodas!
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Young Dudes
+	
+	 
+
+02-Jun-2012 03:01:28 RefScraper.Constructor call
+INFO: Constructing fom page http://www.edfilmfest.org.uk/films?src=cal&date=2012-06-25 - complete
+02-Jun-2012 03:01:28 RefScraper.Constructor call
+INFO: Constructing fom page http://www.edfilmfest.org.uk/films?src=cal&date=2012-06-26
+02-Jun-2012 03:01:29 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			In Person: Masterclass with Victor Kossakovsky
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Luminous Woman (Hikaru onna)
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Short Films 4: Salvaging and Scavenging
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Forever Loved (Lawas Kan Pinabli)
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Papirosen
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			What Is This Film Called Love?
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Attractive Illusion
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Isn’t Anyone Alive? (Ikiteru mono inai no ka)
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Unfinished Business
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Au Pair
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			First Position
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Here, Then
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			The Mirror Never Lies (Laut bercermin)
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			One Mile Away
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			In Person: Masterclass with Victor Kossakovsky
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Luminous Woman (Hikaru onna)
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Short Films 4: Salvaging and Scavenging
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Forever Loved (Lawas Kan Pinabli)
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Papirosen
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			What Is This Film Called Love?
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Attractive Illusion
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Isn’t Anyone Alive? (Ikiteru mono inai no ka)
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Unfinished Business
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			First Position
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Here, Then
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			One Mile Away
+	
+	 
+
+02-Jun-2012 03:01:29 RefScraper.Constructor call
+INFO: Constructing fom page http://www.edfilmfest.org.uk/films?src=cal&date=2012-06-26 - complete
+02-Jun-2012 03:01:29 RefScraper.Constructor call
+INFO: Constructing fom page http://www.edfilmfest.org.uk/films?src=cal&date=2012-06-27
+02-Jun-2012 03:01:31 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			BAFTA and Film Nation Shorts present Mastering Your Craft
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Feel My Pulse
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Short Scottish Documentaries
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			No Man's Zone (Mujin chitai)
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Unfair World (Adikos kosmos)
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Tokyo Drifter (Tokyo dorifuta)
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			7 Days in Havana (7 días en La Habana)
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Three Decades of Philippine Short Films
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Unconditional
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Home for the Weekend (Was bleibt)
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Small Creatures
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			The Fourth Dimension
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Riding Zorro (Montando al zorro)
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			MNL 143
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			One.Two.One (Yek.Do.Yek)
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			BAFTA and Film Nation Shorts present Mastering Your Craft
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Feel My Pulse
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Short Scottish Documentaries
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Unfair World (Adikos kosmos)
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Tokyo Drifter (Tokyo dorifuta)
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Three Decades of Philippine Short Films
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Home for the Weekend (Was bleibt)
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Small Creatures
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			The Fourth Dimension
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Riding Zorro (Montando al zorro)
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			MNL 143
+	
+	 
+
+02-Jun-2012 03:01:31 RefScraper.Constructor call
+INFO: Constructing fom page http://www.edfilmfest.org.uk/films?src=cal&date=2012-06-27 - complete
+02-Jun-2012 03:01:31 RefScraper.Constructor call
+INFO: Constructing fom page http://www.edfilmfest.org.uk/films?src=cal&date=2012-06-28
+02-Jun-2012 03:01:33 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Animation Panel: Running Out of Film
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			The Terrible Couple (Tonda kappuru)
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Blue Black Permanent
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Gabriel over the White House
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			McLaren Animation 3: For the Family
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Small Creatures
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Shell
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			California Solo
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Here, Then
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Anton Corbijn: Inside Out
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Black Box Shorts 4: Particles
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Life without Principle (Dyut meng gam)
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Modest Reception (Paziraie Sadeh)
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Blood of My Blood (Sangue do meu sangue)
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Dress Rehearsal for Utopia (Ensayo final para utopía)
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Animation Panel: Running Out of Film
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			The Terrible Couple (Tonda kappuru)
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Blue Black Permanent
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Gabriel over the White House
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			McLaren Animation 3: For the Family
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Shell
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			California Solo
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Anton Corbijn: Inside Out
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Black Box Shorts 4: Particles
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Life without Principle (Dyut meng gam)
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Modest Reception (Paziraie Sadeh)
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Blood of My Blood (Sangue do meu sangue)
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Dress Rehearsal for Utopia (Ensayo final para utopía)
+	
+	 
+
+02-Jun-2012 03:01:33 RefScraper.Constructor call
+INFO: Constructing fom page http://www.edfilmfest.org.uk/films?src=cal&date=2012-06-28 - complete
+02-Jun-2012 03:01:33 RefScraper.Constructor call
+INFO: Constructing fom page http://www.edfilmfest.org.uk/films?src=cal&date=2012-06-29
+02-Jun-2012 03:01:34 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Black Box Shorts 1: Surfaces and Layers
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Black Box Shorts 2: A Sense of Unease
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Tokyo Heaven (Tokyo joku irasshaimase)
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			She Married Her Boss
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Short Films 5: Capturing Perception
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			The Suburban Trilogy
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Him, Here After (Ini Avan)
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Gate #5 (al-Hawd al-Khamis)
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Berberian Sound Studio
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Sexual Chronicles of a French Family (Chroniques sexuelles d’une famille d’aujourd’hui)
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			The Search for Emak Bakia (Emak Bakia baita)
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Brake
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Dress Rehearsal for Utopia (Ensayo final para utopía)
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Música Campesina (Country Music)
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			The Unspeakable Act
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Black Box Shorts 1: Surfaces and Layers
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Black Box Shorts 2: A Sense of Unease
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Tokyo Heaven (Tokyo joku irasshaimase)
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			She Married Her Boss
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Short Films 5: Capturing Perception
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			The Suburban Trilogy
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Him, Here After (Ini Avan)
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Gate #5 (al-Hawd al-Khamis)
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Berberian Sound Studio
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Sexual Chronicles of a French Family (Chroniques sexuelles d’une famille d’aujourd’hui)
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			The Search for Emak Bakia (Emak Bakia baita)
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Brake
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Música Campesina (Country Music)
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			The Unspeakable Act
+	
+	 
+
+02-Jun-2012 03:01:34 RefScraper.Constructor call
+INFO: Constructing fom page http://www.edfilmfest.org.uk/films?src=cal&date=2012-06-29 - complete
+02-Jun-2012 03:01:34 RefScraper.Constructor call
+INFO: Constructing fom page http://www.edfilmfest.org.uk/films?src=cal&date=2012-06-30
+02-Jun-2012 03:01:36 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Family Shorts
+	
+	 
+
+02-Jun-2012 03:01:36 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			The Edinburgh Film Guild Forsyth Hardy Lecture
+	
+	 
+
+02-Jun-2012 03:01:36 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Demain?
+	
+	 
+
+02-Jun-2012 03:01:36 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			California Solo
+	
+	 
+
+02-Jun-2012 03:01:36 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Awards Ceremony
+	
+	 
+
+02-Jun-2012 03:01:36 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			The Unspeakable Act
+	
+	 
+
+02-Jun-2012 03:01:36 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Brake
+	
+	 
+
+02-Jun-2012 03:01:36 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			The Orator (O Le Tulafala)
+	
+	 
+
+02-Jun-2012 03:01:36 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Black Box Shorts 3: Passing Through
+	
+	 
+
+02-Jun-2012 03:01:36 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Wait and See (Ah, haru)
+	
+	 
+
+02-Jun-2012 03:01:36 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			First Position
+	
+	 
+
+02-Jun-2012 03:01:36 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Hospitalité (Kantai)
+	
+	 
+
+02-Jun-2012 03:01:36 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Black Box Shorts 4: Particles
+	
+	 
+
+02-Jun-2012 03:01:36 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			God Bless America
+	
+	 
+
+02-Jun-2012 03:01:36 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Family Shorts
+	
+	 
+
+02-Jun-2012 03:01:36 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			The Edinburgh Film Guild Forsyth Hardy Lecture
+	
+	 
+
+02-Jun-2012 03:01:36 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Demain?
+	
+	 
+
+02-Jun-2012 03:01:36 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Awards Ceremony
+	
+	 
+
+02-Jun-2012 03:01:36 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			The Orator (O Le Tulafala)
+	
+	 
+
+02-Jun-2012 03:01:36 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Black Box Shorts 3: Passing Through
+	
+	 
+
+02-Jun-2012 03:01:36 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Wait and See (Ah, haru)
+	
+	 
+
+02-Jun-2012 03:01:36 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Hospitalité (Kantai)
+	
+	 
+
+02-Jun-2012 03:01:36 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			God Bless America
+	
+	 
+
+02-Jun-2012 03:01:36 RefScraper.Constructor call
+INFO: Constructing fom page http://www.edfilmfest.org.uk/films?src=cal&date=2012-06-30 - complete
+02-Jun-2012 03:01:36 RefScraper.Constructor call
+INFO: Constructing fom page http://www.edfilmfest.org.uk/films?src=cal&date=2012-07-01
+02-Jun-2012 03:01:37 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Sodankylä Forever: The Century of Cinema (Sodankylä ikuisesti: Elokuvan vuosisata)
+	
+	 
+
+02-Jun-2012 03:01:37 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Home for the Weekend (Was bleibt)
+	
+	 
+
+02-Jun-2012 03:01:37 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Sailor Suit and Machine Gun (Sera-fuku to kikanju)
+	
+	 
+
+02-Jun-2012 03:01:37 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Family Shorts
+	
+	 
+
+02-Jun-2012 03:01:37 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Postcards from the Zoo (Kebun binatang)
+	
+	 
+
+02-Jun-2012 03:01:37 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			We Can’t Go Home Again
+	
+	 
+
+02-Jun-2012 03:01:37 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Youth Shorts
+	
+	 
+
+02-Jun-2012 03:01:37 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Chapiteau Show
+	
+	 
+
+02-Jun-2012 03:01:37 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Blood of My Blood (Sangue do meu sangue)
+	
+	 
+
+02-Jun-2012 03:01:37 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Don’t Expect Too Much
+	
+	 
+
+02-Jun-2012 03:01:37 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Private Worlds
+	
+	 
+
+02-Jun-2012 03:01:37 RefScraper.data.FilmFestEventListPage getMainListCandidates
+INFO: Found candidate :
+				
+	  	
+	  
+	
+			Sauna on Moon (Chang’E)
+	
+	 
+
+02-Jun-2012 03:01:37 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Sodankylä Forever: The Century of Cinema (Sodankylä ikuisesti: Elokuvan vuosisata)
+	
+	 
+
+02-Jun-2012 03:01:37 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Sailor Suit and Machine Gun (Sera-fuku to kikanju)
+	
+	 
+
+02-Jun-2012 03:01:37 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Postcards from the Zoo (Kebun binatang)
+	
+	 
+
+02-Jun-2012 03:01:37 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			We Can’t Go Home Again
+	
+	 
+
+02-Jun-2012 03:01:37 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Youth Shorts
+	
+	 
+
+02-Jun-2012 03:01:37 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Don’t Expect Too Much
+	
+	 
+
+02-Jun-2012 03:01:37 RefScraper.Constructor processFile
+INFO: Construction worker - processing link : 
+				
+	  	
+	  
+	
+			Private Worlds
+	
+	 
+
+02-Jun-2012 03:01:37 RefScraper.Constructor call
+INFO: Constructing fom page http://www.edfilmfest.org.uk/films?src=cal&date=2012-07-01 - complete
+02-Jun-2012 03:01:37 RefScraper.Controller run
+INFO: Controller - construction complete workers no = 128
+02-Jun-2012 03:01:37 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 0
+02-Jun-2012 03:01:38 RefScraper.data.RefThree complete
+WARNING: Unable to complete 
+				
+		
+	
+	
+			KillerJoe
+	
+	
+
+02-Jun-2012 03:01:58 RefScraper.Worker call
+INFO: Worker call unsuccessful
+02-Jun-2012 03:01:58 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 1
+02-Jun-2012 03:02:19 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:02:19 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 2
+02-Jun-2012 03:02:39 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:02:39 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 3
+02-Jun-2012 03:03:00 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:03:00 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 4
+02-Jun-2012 03:03:21 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:03:21 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 5
+02-Jun-2012 03:03:41 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:03:41 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 6
+02-Jun-2012 03:04:02 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:04:02 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 7
+02-Jun-2012 03:04:23 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:04:23 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 8
+02-Jun-2012 03:04:43 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:04:43 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 9
+02-Jun-2012 03:05:09 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:05:09 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 10
+02-Jun-2012 03:05:29 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:05:29 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 11
+02-Jun-2012 03:05:50 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:05:50 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 12
+02-Jun-2012 03:06:11 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:06:11 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 13
+02-Jun-2012 03:06:31 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:06:31 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 14
+02-Jun-2012 03:06:52 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:06:52 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 15
+02-Jun-2012 03:07:12 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:07:12 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 16
+02-Jun-2012 03:07:33 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:07:33 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 17
+02-Jun-2012 03:07:54 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:07:54 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 18
+02-Jun-2012 03:08:17 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:08:17 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 19
+02-Jun-2012 03:08:38 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:08:38 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 20
+02-Jun-2012 03:08:59 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:08:59 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 21
+02-Jun-2012 03:09:20 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:09:20 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 22
+02-Jun-2012 03:09:40 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:09:40 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 23
+02-Jun-2012 03:10:01 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:10:01 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 24
+02-Jun-2012 03:10:21 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:10:21 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 25
+02-Jun-2012 03:10:42 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:10:42 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 26
+02-Jun-2012 03:11:02 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:11:02 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 27
+02-Jun-2012 03:11:23 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:11:23 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 28
+02-Jun-2012 03:11:44 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:11:44 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 29
+02-Jun-2012 03:12:04 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:12:04 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 30
+02-Jun-2012 03:12:28 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:12:28 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 31
+02-Jun-2012 03:12:48 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:12:48 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 32
+02-Jun-2012 03:13:09 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:13:09 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 33
+02-Jun-2012 03:13:30 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:13:30 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 34
+02-Jun-2012 03:13:50 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:13:50 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 35
+02-Jun-2012 03:14:11 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:14:11 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 36
+02-Jun-2012 03:14:31 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:14:32 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 37
+02-Jun-2012 03:14:53 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:14:53 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 38
+02-Jun-2012 03:15:13 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:15:13 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 39
+02-Jun-2012 03:15:34 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:15:34 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 40
+02-Jun-2012 03:15:55 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:15:55 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 41
+02-Jun-2012 03:16:15 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:16:15 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 42
+02-Jun-2012 03:16:36 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:16:36 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 43
+02-Jun-2012 03:16:56 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:16:56 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 44
+02-Jun-2012 03:17:17 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:17:17 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 45
+02-Jun-2012 03:17:38 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:17:38 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 46
+02-Jun-2012 03:17:58 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:17:58 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 47
+02-Jun-2012 03:18:22 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:18:22 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 48
+02-Jun-2012 03:18:43 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:18:43 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 49
+02-Jun-2012 03:19:03 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:19:03 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 50
+02-Jun-2012 03:19:24 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:19:24 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 51
+02-Jun-2012 03:19:45 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:19:45 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 52
+02-Jun-2012 03:20:05 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:20:05 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 53
+02-Jun-2012 03:20:31 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:20:31 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 54
+02-Jun-2012 03:20:51 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:20:51 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 55
+02-Jun-2012 03:21:12 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:21:12 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 56
+02-Jun-2012 03:21:33 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:21:33 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 57
+02-Jun-2012 03:21:53 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:21:53 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 58
+02-Jun-2012 03:22:14 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:22:14 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 59
+02-Jun-2012 03:22:34 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:22:34 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 60
+02-Jun-2012 03:22:55 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:22:55 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 61
+02-Jun-2012 03:23:16 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:23:16 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 62
+02-Jun-2012 03:23:36 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:23:36 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 63
+02-Jun-2012 03:23:57 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:23:57 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 64
+02-Jun-2012 03:24:17 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:24:17 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 65
+02-Jun-2012 03:24:38 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:24:38 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 66
+02-Jun-2012 03:24:59 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:24:59 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 67
+02-Jun-2012 03:25:19 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:25:19 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 68
+02-Jun-2012 03:25:40 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:25:40 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 69
+02-Jun-2012 03:26:01 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:26:01 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 70
+02-Jun-2012 03:26:21 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:26:21 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 71
+02-Jun-2012 03:26:42 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:26:42 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 72
+02-Jun-2012 03:27:02 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:27:02 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 73
+02-Jun-2012 03:27:23 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:27:23 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 74
+02-Jun-2012 03:27:44 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:27:44 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 75
+02-Jun-2012 03:28:09 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:28:09 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 76
+02-Jun-2012 03:28:30 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:28:30 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 77
+02-Jun-2012 03:28:51 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:28:51 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 78
+02-Jun-2012 03:29:11 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:29:11 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 79
+02-Jun-2012 03:29:32 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:29:32 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 80
+02-Jun-2012 03:29:52 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:29:52 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 81
+02-Jun-2012 03:30:13 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:30:13 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 82
+02-Jun-2012 03:30:34 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:30:34 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 83
+02-Jun-2012 03:30:54 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:30:54 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 84
+02-Jun-2012 03:31:15 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:31:15 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 85
+02-Jun-2012 03:31:36 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:31:36 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 86
+02-Jun-2012 03:31:56 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:31:56 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 87
+02-Jun-2012 03:32:17 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:32:17 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 88
+02-Jun-2012 03:32:38 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:32:38 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 89
+02-Jun-2012 03:33:03 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:33:03 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 90
+02-Jun-2012 03:33:25 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:33:25 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 91
+02-Jun-2012 03:33:46 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:33:46 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 92
+02-Jun-2012 03:34:06 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:34:06 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 93
+02-Jun-2012 03:34:27 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:34:27 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 94
+02-Jun-2012 03:34:48 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:34:48 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 95
+02-Jun-2012 03:35:08 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:35:08 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 96
+02-Jun-2012 03:35:32 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:35:32 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 97
+02-Jun-2012 03:35:53 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:35:53 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 98
+02-Jun-2012 03:36:13 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:36:13 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 99
+02-Jun-2012 03:36:34 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:36:34 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 100
+02-Jun-2012 03:36:54 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:36:54 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 101
+02-Jun-2012 03:37:15 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:37:15 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 102
+02-Jun-2012 03:37:35 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:37:35 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 103
+02-Jun-2012 03:37:56 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:37:56 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 104
+02-Jun-2012 03:38:17 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:38:17 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 105
+02-Jun-2012 03:38:37 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:38:37 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 106
+02-Jun-2012 03:38:58 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:38:58 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 107
+02-Jun-2012 03:39:18 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:39:18 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 108
+02-Jun-2012 03:39:39 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:39:39 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 109
+02-Jun-2012 03:40:00 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:40:00 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 110
+02-Jun-2012 03:40:20 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:40:20 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 111
+02-Jun-2012 03:40:41 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:40:41 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 112
+02-Jun-2012 03:41:01 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:41:01 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 113
+02-Jun-2012 03:41:22 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:41:22 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 114
+02-Jun-2012 03:41:43 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:41:43 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 115
+02-Jun-2012 03:42:03 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:42:03 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 116
+02-Jun-2012 03:42:24 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:42:24 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 117
+02-Jun-2012 03:42:45 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:42:45 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 118
+02-Jun-2012 03:43:05 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:43:05 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 119
+02-Jun-2012 03:43:31 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:43:31 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 120
+02-Jun-2012 03:43:52 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:43:52 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 121
+02-Jun-2012 03:44:12 RefScraper.Worker call
+INFO: Worker call successful
+02-Jun-2012 03:44:12 RefScraper.Controller run
+INFO: Controller - waiting for worker no = 122

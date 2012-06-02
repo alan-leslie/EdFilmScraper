@@ -85,13 +85,15 @@ public class PageTest {
 
             FilmFestEventListPage thePage = new FilmFestEventListPage(theURL, theLogger);
             List<HTMLLink> candidates = thePage.getCandidates();
+            
+            int candSize = candidates.size();
 
-            assertEquals(10, candidates.size());
+            assertEquals(14, candSize);
             String theFirstURL = candidates.get(0).getHREF();
-            String theFirstTitle = candidates.get(0).getText();
+            String theFirstTitle = candidates.get(0).getText().trim();
 
-            assert (theFirstURL.equalsIgnoreCase("http://www.sciencefestival.co.uk/whats-on/categories/talk/science-festival-church-service"));
-            assert (theFirstTitle.equalsIgnoreCase("Science Festival Church service"));
+            assert (theFirstURL.equalsIgnoreCase("http://www.edfilmfest.org.uk/films/2012/pp-rider"));
+            assert (theFirstTitle.equalsIgnoreCase("PP Rider (Shonben raida)"));
         } catch (MalformedURLException ex) {
             Logger.getLogger(PageTest.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
