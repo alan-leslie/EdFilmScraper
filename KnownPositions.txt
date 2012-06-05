@@ -8,6 +8,7 @@ SkyBar@ThePointHotel,55.945784,-3.203363
 StillsGallery,55.950627,-3.190306
 TheBurnsMonument,55.953519,-3.178548
 TraverseTheatre-DelegateCentre,55.947701,-3.205069
+Traverse,55.947701,-3.205069
 ZuccaRetaurant,55.946609,-3.203663
 
 

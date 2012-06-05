@@ -93,7 +93,7 @@ public class RefThree implements Comparable {
         }
         
         DateFormat theDateTimeFormat = new SimpleDateFormat("EEE MMM dd HH:mm:ss zzz yyyy");
-        theDateTimeFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
+        theDateTimeFormat.setTimeZone(TimeZone.getTimeZone("Europe/London"));
         
         for(PlacePeriod thePlacePeriod: thePlacePeriods){
             Period thePeriod = thePlacePeriod.getPeriod();
@@ -101,10 +101,10 @@ public class RefThree implements Comparable {
             Position thePosition = thePlacePeriod.getPosition();
             
             DateFormat theDateFormat = new SimpleDateFormat("EEE MMM dd");
-            theDateFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
+            theDateFormat.setTimeZone(TimeZone.getTimeZone("Europe/London"));
             String dateString = theDateFormat.format(thePeriod.getStartDate());
             DateFormat theTimeFormat = new SimpleDateFormat("HH:mm");
-            theTimeFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
+            theTimeFormat.setTimeZone(TimeZone.getTimeZone("Europe/London"));
             String timeString = theTimeFormat.format(thePeriod.getStartDate());
 
         if (asKML) {

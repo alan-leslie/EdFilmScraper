@@ -22,9 +22,9 @@ public class PeriodTest {
         Period thePeriod = Period.getRealPeriod("1981-2001");
 
         assertEquals(true, thePeriod.hasDuration());
-        Calendar startDate = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+        Calendar startDate = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
         startDate.setTime(thePeriod.getStartDate());
-        Calendar endDate = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+        Calendar endDate = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
         endDate.setTime(thePeriod.getEndDate());
         assertEquals(1981, startDate.get(Calendar.YEAR));
         assertEquals(2001, endDate.get(Calendar.YEAR));
@@ -40,9 +40,9 @@ public class PeriodTest {
         assertEquals(false, thePeriod == null);
 
         assertEquals(true, thePeriod.hasDuration());
-        Calendar startDate = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+        Calendar startDate = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
         startDate.setTime(thePeriod.getStartDate());
-        Calendar endDate = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+        Calendar endDate = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
         endDate.setTime(thePeriod.getEndDate());
         assertEquals(2001, startDate.get(Calendar.YEAR));
         assertEquals(2001, endDate.get(Calendar.YEAR));
@@ -62,9 +62,9 @@ public class PeriodTest {
         assertEquals(false, thePeriod == null);
 
         assertEquals(true, thePeriod.hasDuration());
-        Calendar startDate = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+        Calendar startDate = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
         startDate.setTime(thePeriod.getStartDate());
-        Calendar endDate = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+        Calendar endDate = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
         endDate.setTime(thePeriod.getEndDate());
         assertEquals(2001, startDate.get(Calendar.YEAR));
         assertEquals(2001, endDate.get(Calendar.YEAR));
@@ -84,9 +84,9 @@ public class PeriodTest {
         assertEquals(false, thePeriod == null);
 
         assertEquals(true, thePeriod.hasDuration());
-        Calendar startDate = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+        Calendar startDate = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
         startDate.setTime(thePeriod.getStartDate());
-        Calendar endDate = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+        Calendar endDate = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
         endDate.setTime(thePeriod.getEndDate());
         assertEquals(2001, startDate.get(Calendar.YEAR));
         assertEquals(2001, endDate.get(Calendar.YEAR));
@@ -106,9 +106,9 @@ public class PeriodTest {
         assertEquals(false, thePeriod == null);
 
         assertEquals(true, thePeriod.hasDuration());
-        Calendar startDate = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+        Calendar startDate = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
         startDate.setTime(thePeriod.getStartDate());
-        Calendar endDate = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+        Calendar endDate = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
         endDate.setTime(thePeriod.getEndDate());
         assertEquals(2001, startDate.get(Calendar.YEAR));
         assertEquals(2001, endDate.get(Calendar.YEAR));
@@ -128,9 +128,9 @@ public class PeriodTest {
         assertEquals(false, thePeriod == null);
 
         assertEquals(true, thePeriod.hasDuration());
-        Calendar startDate = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+        Calendar startDate = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
         startDate.setTime(thePeriod.getStartDate());
-        Calendar endDate = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+        Calendar endDate = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
         endDate.setTime(thePeriod.getEndDate());
         assertEquals(1981, startDate.get(Calendar.YEAR));
         assertEquals(2001, endDate.get(Calendar.YEAR));
@@ -162,19 +162,19 @@ public class PeriodTest {
         assertEquals(false, theMY == null);
         assertEquals(false, theYear == null);
 
-        Calendar firstDate = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+        Calendar firstDate = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
         firstDate.setTime(theDate);
-        Calendar monthFirstDate = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+        Calendar monthFirstDate = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
         monthFirstDate.setTime(theMonthFirst);
-        Calendar dayMonthFirstDate = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+        Calendar dayMonthFirstDate = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
         dayMonthFirstDate.setTime(theDayMonthFirst);        
-        Calendar dMYDate = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+        Calendar dMYDate = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
         dMYDate.setTime(theDMY);
-        Calendar MCommaYDate = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+        Calendar MCommaYDate = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
         MCommaYDate.setTime(theMCommaY);
-        Calendar MYDate = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+        Calendar MYDate = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
         MYDate.setTime(theMY);
-        Calendar yearDate = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+        Calendar yearDate = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
         yearDate.setTime(theYear);
  
         assertEquals(1981, firstDate.get(Calendar.YEAR));
@@ -212,9 +212,9 @@ public class PeriodTest {
         assertEquals(false, theSecondDate == null);
         assertEquals(true, theInvalidDate == null);
 
-        Calendar firstDate = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+        Calendar firstDate = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
         firstDate.setTime(theFirstDate);
-        Calendar secondDate = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+        Calendar secondDate = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
         secondDate.setTime(theSecondDate);
         assertEquals(1981, firstDate.get(Calendar.YEAR));
         assertEquals(1001, secondDate.get(Calendar.YEAR));

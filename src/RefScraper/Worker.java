@@ -51,7 +51,7 @@ public class Worker implements Callable<RefThree> {
         boolean isError = !(theResult.complete());
         
         try {
-            Thread.sleep(20000);
+            Thread.sleep(40000);
         } catch (InterruptedException ex) {
             Logger.getLogger(Worker.class.getName()).log(Level.SEVERE, null, ex);
         }

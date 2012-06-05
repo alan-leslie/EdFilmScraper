@@ -3,6 +3,8 @@ package RefScraper.data;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.List;
@@ -103,6 +105,13 @@ public class PageTest {
             assertEquals(20, startDate.get(Calendar.DAY_OF_MONTH));
             assertEquals(21, startDate.get(Calendar.HOUR_OF_DAY));
             assertEquals(30, startDate.get(Calendar.MINUTE));
+            
+            DateFormat theDateFormat = new SimpleDateFormat("EEE MMM dd");
+            theDateFormat.setTimeZone(TimeZone.getTimeZone("Europe/London"));
+            String dateString = theDateFormat.format(thePeriod.getStartDate());
+            DateFormat theTimeFormat = new SimpleDateFormat("HH:mm");
+            theTimeFormat.setTimeZone(TimeZone.getTimeZone("Europe/London"));
+            String timeString = theTimeFormat.format(thePeriod.getStartDate());
 
             assert (thePosition.getLatitude().equalsIgnoreCase("55.946821"));
             assert (thePosition.getLongitude().equalsIgnoreCase("-3.18608"));

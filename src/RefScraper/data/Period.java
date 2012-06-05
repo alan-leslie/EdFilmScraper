@@ -107,17 +107,17 @@ public class Period {
 
             String theSecond = theParts[1];
             DateFormat theDayMonthFormat = new SimpleDateFormat("dd MMMM");
-            theDayMonthFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
+            theDayMonthFormat.setTimeZone(TimeZone.getTimeZone("Europe/London"));
             DateFormat theMonthDayFormat = new SimpleDateFormat("MMMM dd");
-            theMonthDayFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
+            theMonthDayFormat.setTimeZone(TimeZone.getTimeZone("Europe/London"));
             DateFormat theDayYearFormat = new SimpleDateFormat("dd, yyyy");
-            theDayYearFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
+            theDayYearFormat.setTimeZone(TimeZone.getTimeZone("Europe/London"));
             DateFormat theFullDateFormat = new SimpleDateFormat("dd MMMM yyyy");
-            theFullDateFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
+            theFullDateFormat.setTimeZone(TimeZone.getTimeZone("Europe/London"));
             DateFormat theDayFormat = new SimpleDateFormat("dd");
-            theDayFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
+            theDayFormat.setTimeZone(TimeZone.getTimeZone("Europe/London"));
             DateFormat theYearFormat = new SimpleDateFormat("yyyy");
-            theYearFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
+            theYearFormat.setTimeZone(TimeZone.getTimeZone("Europe/London"));
 
             try {
                 Date theStartDate = theFullDateFormat.parse(theFirst);
@@ -132,9 +132,9 @@ public class Period {
                 try {
                     Date theStartDate = theDayMonthFormat.parse(theFirst);
                     Date theEndDate = theFullDateFormat.parse(theSecond);
-                    Calendar theStartDateCal = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+                    Calendar theStartDateCal = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
                     theStartDateCal.setTime(theStartDate);
-                    Calendar theEndDateCal = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+                    Calendar theEndDateCal = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
                     theEndDateCal.setTime(theEndDate);
                     theStartDateCal.set(Calendar.YEAR, theEndDateCal.get(Calendar.YEAR));
                     realPeriod = new Period(theStartDateCal.getTime(), theEndDateCal.getTime());
@@ -148,9 +148,9 @@ public class Period {
                 try {
                     Date theStartDate = theMonthDayFormat.parse(theFirst);
                     Date theEndDate = theDayYearFormat.parse(theSecond);
-                    Calendar theStartDateCal = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+                    Calendar theStartDateCal = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
                     theStartDateCal.setTime(theStartDate);
-                    Calendar theEndDateCal = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+                    Calendar theEndDateCal = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
                     theEndDateCal.setTime(theEndDate);
                     theStartDateCal.set(Calendar.YEAR, theEndDateCal.get(Calendar.YEAR));
                     theEndDateCal.set(Calendar.MONTH, theStartDateCal.get(Calendar.MONTH));
@@ -165,9 +165,9 @@ public class Period {
                 try {
                     Date theStartDate = theDayFormat.parse(theFirst);
                     Date theEndDate = theFullDateFormat.parse(theSecond);
-                    Calendar theStartDateCal = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+                    Calendar theStartDateCal = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
                     theStartDateCal.setTime(theStartDate);
-                    Calendar theEndDateCal = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+                    Calendar theEndDateCal = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
                     theEndDateCal.setTime(theEndDate);
                     theStartDateCal.set(Calendar.YEAR, theEndDateCal.get(Calendar.YEAR));
                     theStartDateCal.set(Calendar.MONTH, theEndDateCal.get(Calendar.MONTH));
@@ -237,25 +237,25 @@ public class Period {
 
         List<DateFormat> theFormatters = new ArrayList<DateFormat>();
         SimpleDateFormat theDateFormat = new SimpleDateFormat("dd MMMM yyyy");
-        theDateFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
+        theDateFormat.setTimeZone(TimeZone.getTimeZone("Europe/London"));
         theFormatters.add(theDateFormat);
         theDateFormat = new SimpleDateFormat("MMMM dd yyyy");
-        theDateFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
+        theDateFormat.setTimeZone(TimeZone.getTimeZone("Europe/London"));
         theFormatters.add(theDateFormat);
 //        theDateFormat = new SimpleDateFormat("dd MMMM, yyyy");
-//        theDateFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
+//        theDateFormat.setTimeZone(TimeZone.getTimeZone("Europe/London"));
 //        theFormatters.add(theDateFormat);
         theDateFormat = new SimpleDateFormat("MM/dd/yyyy");
-        theDateFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
+        theDateFormat.setTimeZone(TimeZone.getTimeZone("Europe/London"));
         theFormatters.add(theDateFormat);
         theDateFormat = new SimpleDateFormat("MMMM, yyyy");
-        theDateFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
+        theDateFormat.setTimeZone(TimeZone.getTimeZone("Europe/London"));
         theFormatters.add(theDateFormat);
         theDateFormat = new SimpleDateFormat("MMMM yyyy");
-        theDateFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
+        theDateFormat.setTimeZone(TimeZone.getTimeZone("Europe/London"));
         theFormatters.add(theDateFormat);
         theDateFormat = new SimpleDateFormat("yyyy");
-        theDateFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
+        theDateFormat.setTimeZone(TimeZone.getTimeZone("Europe/London"));
         theFormatters.add(theDateFormat);
 
         for (int i = 0; i < theFormatters.size() && retVal == null; ++i) {
@@ -322,9 +322,9 @@ public class Period {
         if (hasDuration()) {
             String thePrefix = "";
 
-            Calendar theStartDateCal = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+            Calendar theStartDateCal = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
             theStartDateCal.setTime(theStartDate);
-            Calendar theEndDateCal = new GregorianCalendar(TimeZone.getTimeZone("GMT"));
+            Calendar theEndDateCal = new GregorianCalendar(TimeZone.getTimeZone("Europe/London"));
             theEndDateCal.setTime(theEndDate);
 
             if (theStartDateCal.get(Calendar.YEAR) != theEndDateCal.get(Calendar.YEAR)) {
