@@ -396,10 +396,19 @@ public class FilmFestEventDetailPage {
         int listLength = detailsData.getLength();
         String retVal = "";
         
-        if(listLength > 3){
-            Node theValueNode = detailsData.item(3);
-            retVal = theValueNode.getTextContent().trim();
+        for(int i = 0; i < listLength && retVal.isEmpty(); ++i){
+            Node theValueNode = detailsData.item(i);   
+            String theText = theValueNode.getTextContent();
+            if(theText.endsWith("mins")){
+                retVal = theText;
+            }
+            
         }
+        
+//        if(listLength > 3){
+//            Node theValueNode = detailsData.item(3);
+//            retVal = theValueNode.getTextContent().trim();
+//        }
 
         return retVal;
     }
