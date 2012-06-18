@@ -35,7 +35,7 @@ public class RefThreeTest {
 
         assertEquals(2, theTestRef.getPlacePeriods().size());
         Period thePeriod = thePlacePeriod.getPeriod();
-        assertEquals(false, thePeriod.hasDuration());
+        assertEquals(true, thePeriod.hasDuration());
         Calendar startDate = new GregorianCalendar(TimeZone.getTimeZone( "Europe/London" ));
         startDate.setTime(thePeriod.getStartDate());
         assertEquals(2012, startDate.get(Calendar.YEAR));
@@ -43,6 +43,14 @@ public class RefThreeTest {
         assertEquals(21, startDate.get(Calendar.DAY_OF_MONTH));
         assertEquals(18, startDate.get(Calendar.HOUR_OF_DAY));
         assertEquals(30, startDate.get(Calendar.MINUTE));
+        
+        Calendar endDate = new GregorianCalendar(TimeZone.getTimeZone( "Europe/London" ));
+        endDate.setTime(thePeriod.getEndDate());
+        assertEquals(2012, endDate.get(Calendar.YEAR));
+        assertEquals(Calendar.JUNE, endDate.get(Calendar.MONTH));
+        assertEquals(21, endDate.get(Calendar.DAY_OF_MONTH));
+        assertEquals(19, endDate.get(Calendar.HOUR_OF_DAY));
+        assertEquals(49, endDate.get(Calendar.MINUTE));
         
         Position thePosition = thePlacePeriod.getPosition();
         String theLat = thePosition.getLatitude();

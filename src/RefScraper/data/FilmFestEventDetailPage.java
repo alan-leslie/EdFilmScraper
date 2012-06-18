@@ -170,6 +170,15 @@ public class FilmFestEventDetailPage {
 
         SimpleDateFormat theDateFormat = new SimpleDateFormat("dd MMMM, HH:mm yyyy");
         theDateFormat.setTimeZone(TimeZone.getTimeZone("Europe/London"));
+        
+        int durationInMinutes = 0;
+        theDuration = getDuration();
+        if(!theDuration.isEmpty()){
+            if(theDuration.endsWith("mins")){
+                String theNoOfMins = theDuration.substring(0, theDuration.length() - 4).trim();
+                durationInMinutes = Integer.parseInt(theNoOfMins);             
+            }
+        }
 
         if (datesTableData != null) {
             int noOfRows = datesTableData.getLength();
@@ -189,8 +198,9 @@ public class FilmFestEventDetailPage {
                         
                     try {
                         Date startDate = theDateFormat.parse(startDateTime);
-
-                        Period thePeriod = new Period(startDate, startDate);
+                        Date endDate = new Date(startDate.getTime() + (durationInMinutes * 60 * 1000));
+                        
+                        Period thePeriod = new Period(startDate, endDate);
                         PlacePeriod thePlacePeriod = new PlacePeriod(thePeriod, fullVenueName);
                         thePlacePeriods.add(thePlacePeriod);
                     } catch (ParseException ex) {
