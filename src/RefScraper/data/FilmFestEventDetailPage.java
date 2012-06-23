@@ -6,7 +6,9 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.TimeZone;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -73,54 +75,6 @@ public class FilmFestEventDetailPage implements IDetailPage {
     public URL getURL() {
         return theURL;
     }
-
-//    /**
-//     * Finds the position from the page.
-//     * @return -valid position or null if unobtainable
-//     */
-//    public Position getPosition() {
-//        // leave this as null so that ref three will pick it up from known positions
-//        Position thePosition = null;
-//        return thePosition;
-//    }
-
-//    /**
-//     * Finds the venue name from the page.
-//     * @return -valid venue name or "" if unobtainable
-//     */
-//    public String getVenueName() {
-//        if(theVenueName.isEmpty()){
-//            if(theVenueNames.isEmpty()){
-//                // report an error
-//            } else {
-//                // need to check that they all tally
-//                String firstVenue = theVenueNames.get(0);
-//                String[] venueNameArray = firstVenue.split(" ");
-//                
-//                // this needs to just drop off the end number
-//                String venueStart = venueNameArray[0];
-//                
-//                for(int i = 1; i < theVenueNames.size(); ++i){
-//                    if(!theVenueNames.get(i).contains(venueStart)){
-//                        // report a problem
-//                    }
-//                }
-//                
-//                theVenueName = venueStart;
-//            }
-//        }
-////        if (theVenueName.isEmpty()) {
-////            if (detailsData == null) {
-////                detailsData = getDetailsData();
-////            }
-////
-////            if (detailsData != null) {
-////                theVenueName = getVenueNameFromTable(detailsData);
-////            }
-////        }
-//
-//        return theVenueName;
-//    }
 
     /**
      * Finds the ages name from the page.
@@ -215,43 +169,6 @@ public class FilmFestEventDetailPage implements IDetailPage {
         return thePlacePeriods;
     }
 
-//    /*
-//     * Get the main table data from the page
-//     * @return - node list representing the main table section
-//     *
-//     */
-//    private NodeList getSummaryData() {
-//        NodeList retVal = null;
-//
-//        try {
-//            XPath mainTableXpath = XPathFactory.newInstance().newXPath();
-//            NodeList theData = (NodeList) mainTableXpath.evaluate("html//div[@class='entry-content']/table", theDocument, XPathConstants.NODESET);
-//
-//            if (theData != null) {
-//                int theLength = theData.getLength();
-//
-//                if (theLength > 0) {
-//                    Node summaryNode = theData.item(0);
-//                    XPath rowsXpath = XPathFactory.newInstance().newXPath();
-//                    NodeList theRows = (NodeList) rowsXpath.evaluate("./tbody/tr", summaryNode, XPathConstants.NODESET);
-//
-//                    if (theRows != null) {
-//                        int noOfRows = theRows.getLength();
-//
-//                        if (noOfRows > 0) {
-//                            return theRows;
-//                        }
-//                    }
-//                }
-//            }
-//        } catch (XPathExpressionException ex) {
-//            theLogger.log(Level.SEVERE, null, ex);
-//        }
-//
-//        return retVal;
-//    }
-
-
     /*
      * Get the main table data from the page
      * @return - node list representing the main table section
@@ -303,23 +220,6 @@ public class FilmFestEventDetailPage implements IDetailPage {
 
         return retVal;
     }
-
-//    /**
-//     * Try and get the name of the venue from the main table of the page
-//     * @param mainTableData 
-//     * @return - valid venue name or null if not obtainable
-//     */
-//    private String getVenueNameFromTable(NodeList mainTableData) {
-//        // second anchor
-//        Node theValueNode = getValueNodeFromTable(mainTableData, "Venue details");
-//        String retVal = null;
-//
-//        if (theValueNode != null) {
-//            retVal = theValueNode.getTextContent();
-//        }
-//
-//        return retVal;
-//    }
 
     /**
      * Try and get ages from the main table of the page
@@ -406,11 +306,6 @@ public class FilmFestEventDetailPage implements IDetailPage {
             }
             
         }
-        
-//        if(listLength > 3){
-//            Node theValueNode = detailsData.item(3);
-//            retVal = theValueNode.getTextContent().trim();
-//        }
 
         return retVal;
     }
@@ -427,19 +322,12 @@ public class FilmFestEventDetailPage implements IDetailPage {
         return retVal;
     }
 
-    public String getValue(String key) {
-        if(key.equalsIgnoreCase("duration")){
-            return getDuration();
-        }
+    public Map<String, String> getExtendedData() {
+        Map<String, String> retVal = new HashMap<String, String>();
+        retVal.put("Country", getCountry());
+        retVal.put("Duration", getDuration());
+        retVal.put("Director", getDirector());
         
-        if(key.equalsIgnoreCase("director")){
-            return getDirector();
-        }
-        
-        if(key.equalsIgnoreCase("country")){
-            return getCountry();
-        }    
-        
-        return "";
+        return retVal;
     }
 }

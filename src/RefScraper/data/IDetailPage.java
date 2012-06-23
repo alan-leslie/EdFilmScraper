@@ -6,6 +6,7 @@ package RefScraper.data;
 
 import java.net.URL;
 import java.util.List;
+import java.util.Map;
 
 /**
  *
@@ -14,11 +15,10 @@ import java.util.List;
 public interface IDetailPage {
 
     /**
-     * Gets the value of the key from the page
-     * @param key 
-     * @return -the required value or empty string if unobtainable
+     * Gets the extended data for the page
+     * @return -the map of extended data
      */
-    String getValue(String key);
+    Map<String, String> getExtendedData();
 
     /**
      * Finds the period from the page.
