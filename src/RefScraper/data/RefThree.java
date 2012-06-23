@@ -246,10 +246,6 @@ public class RefThree implements Comparable {
             IDetailPage thePage = PageFactory.getDetailPage(theURL, theDatePeriodString, theLogger);
             thePlacePeriods = thePage.getPlacePeriods();
             theExtendedData = thePage.getExtendedData();
-
-//            theDuration = thePage.getValue("duration");
-//            theDirector = thePage.getValue("director");
-//            theCountry = thePage.getValue("country");
         } catch (Exception exc) {
             theLogger.log(Level.SEVERE, "Unable to parse: " + getId(), exc);
         }
