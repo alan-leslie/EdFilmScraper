@@ -21,7 +21,7 @@ import org.xml.sax.SAXException;
  * Model of science festival page that contains lists of items to be processed
  * @author al
  */
-public class FilmFestEventListPage {
+public class FilmFestEventListPage implements IListPage {
 
     private final URL theURL;
     private final Document theDocument;
@@ -54,6 +54,7 @@ public class FilmFestEventListPage {
     /**
      * @return -the page url
      */
+    @Override
     public URL getURL() {
         return theURL;
     }
@@ -62,6 +63,7 @@ public class FilmFestEventListPage {
      * Finds candidate links by looking various sections of the page.
      * @return - the candidate links
      */
+    @Override
     public List<HTMLLink> getCandidates() {
         List<HTMLLink> theCandidates = new ArrayList<HTMLLink>();
         getMainListCandidates(theCandidates);
@@ -115,49 +117,5 @@ public class FilmFestEventListPage {
         } catch (Exception e) {
             theLogger.log(Level.SEVERE, "Exception on XPath: ", e);
         }
-    }
-        
-    static String getAsciiText(String theText) {
-        StringBuilder theBuilder = new StringBuilder();
-        int lengthInChars = theText.length();
-        int noOfCodePoints = theText.codePointCount(0, lengthInChars - 1);
-
-        try {
-            if (lengthInChars > 0
-                    && lengthInChars > noOfCodePoints) {
-                for (int offset = 0; offset < lengthInChars;) {
-                    final int codePoint = theText.codePointAt(offset);
-                    char theCharAt = theText.charAt(offset);
-
-                    if (codePoint >= 0 && codePoint < 128) {
-                        theBuilder.append(theCharAt);
-                    } else {
-                        theBuilder.append(FilmFestEventListPage.asciiFromUTF(codePoint));
-                    }
-
-                    offset += Character.charCount(codePoint);
-                }
-            } else {
-                theBuilder.append(theText);
-            }
-        } catch (IndexOutOfBoundsException exc) {
-            System.out.println("out of bounds");
-        }
-
-        return theBuilder.toString();
-    }
-    
-    static char asciiFromUTF(int codePoint) {
-        char retVal = ' ';
-        switch (codePoint) {
-            case 8211:
-                retVal = '-';
-                break;
-            case 8217:
-                retVal = '\'';
-                break;
-        }
-
-        return retVal;
     }
 }

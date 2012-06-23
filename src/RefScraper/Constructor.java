@@ -2,6 +2,8 @@ package RefScraper;
 
 import RefScraper.data.HTMLLink;
 import RefScraper.data.FilmFestEventListPage;
+import RefScraper.data.IListPage;
+import RefScraper.data.PageFactory;
 import RefScraper.data.RefThree;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -80,7 +82,7 @@ public class Constructor implements Callable<String> {
         for (int i = 0; i < target.size(); ++i) {
             try {
                 theLogger.log(Level.INFO, "Constructing fom page {0}", target.get(i));
-                FilmFestEventListPage thePage = new FilmFestEventListPage(target.get(i), theLogger);
+                IListPage thePage = PageFactory.getListPage(target.get(i), theLogger);
                 processFile(thePage, linksAdded);
                 theLogger.log(Level.INFO, "Constructing fom page {0} - complete", target.get(i));
             } catch (Exception e) {
@@ -98,7 +100,7 @@ public class Constructor implements Callable<String> {
      * @param document - valid parsed html document
      * @return  
      */
-    private boolean processFile(FilmFestEventListPage thePage,
+    private boolean processFile(IListPage thePage,
             List<String> linksAdded) {
         List<HTMLLink> theCandidates = thePage.getCandidates();
         int linksLength = theCandidates.size();

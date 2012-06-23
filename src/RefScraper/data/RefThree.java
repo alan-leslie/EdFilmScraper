@@ -272,12 +272,12 @@ public class RefThree implements Comparable {
      */
     public boolean complete() {
         try {
-            FilmFestEventDetailPage thePage = new FilmFestEventDetailPage(theURL, theDatePeriodString, theLogger);
+            IDetailPage thePage = PageFactory.getDetailPage(theURL, theDatePeriodString, theLogger);
             thePlacePeriods = thePage.getPlacePeriods();
             
-            theDuration = thePage.getDuration();
-            theDirector = thePage.getDirector();
-            theCountry = thePage.getCountry();
+            theDuration = thePage.getValue("duration");
+            theDirector = thePage.getValue("director");
+            theCountry = thePage.getValue("country");
         } catch (Exception exc) {
             theLogger.log(Level.SEVERE, "Unable to parse: " + getId(), exc);
         }

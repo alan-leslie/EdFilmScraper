@@ -24,7 +24,7 @@ import org.xml.sax.SAXException;
  * Model of Edinburgh Film festival detail page (contains details of period position).
  * @author al
  */
-public class FilmFestEventDetailPage {
+public class FilmFestEventDetailPage implements IDetailPage {
 
     private final URL theURL;
     private final String theDateString;
@@ -69,6 +69,7 @@ public class FilmFestEventDetailPage {
      * 
      * @return -valid URL of this page.
      */
+    @Override
     public URL getURL() {
         return theURL;
     }
@@ -161,6 +162,7 @@ public class FilmFestEventDetailPage {
      * Finds the period from the page.
      * @return -valid period or null if unobtainable
      */
+    @Override
     public List<PlacePeriod> getPlacePeriods() {
         List<PlacePeriod> thePlacePeriods = new ArrayList<PlacePeriod>();
 
@@ -423,5 +425,21 @@ public class FilmFestEventDetailPage {
         }
 
         return retVal;
+    }
+
+    public String getValue(String key) {
+        if(key.equalsIgnoreCase("duration")){
+            return getDuration();
+        }
+        
+        if(key.equalsIgnoreCase("director")){
+            return getDirector();
+        }
+        
+        if(key.equalsIgnoreCase("country")){
+            return getCountry();
+        }    
+        
+        return "";
     }
 }

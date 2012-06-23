@@ -1,6 +1,7 @@
 
 package RefScraper.data;
 
+import RefScraper.utils.UnicodeUtils;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -61,7 +62,7 @@ public class PositionMap {
      */
 
     synchronized Position getPosition(String key) {
-        String asciiKey = FilmFestEventListPage.getAsciiText(key);
+        String asciiKey = UnicodeUtils.getAsciiText(key);
         String strippedKey = asciiKey.replace(",", "");
         Position thePos = theMap.get(strippedKey);
         return thePos;
