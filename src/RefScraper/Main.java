@@ -28,7 +28,7 @@ public class Main {
         FileInputStream is = null;
 
         try {
-            is = new FileInputStream("FilmScraper.properties");
+            is = new FileInputStream("RefScraper.properties");
             properties.load(is);
         } catch (IOException e) {
             // ...

@@ -8,6 +8,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.List;
+import java.util.Map;
 import java.util.TimeZone;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -32,7 +33,7 @@ public class PageTest {
             URL theURL = new URL("http://www.edfilmfest.org.uk/films/2012/sun-dont-shine");
             Logger theLogger = Logger.getLogger(PageTest.class.getName());
 
-            FilmFestEventDetailPage thePage = new FilmFestEventDetailPage(theURL, "", theLogger);
+            IDetailPage thePage = new FilmFestEventDetailPage(theURL, "", theLogger);
 
             URL pageURL = thePage.getURL();
 
@@ -46,7 +47,7 @@ public class PageTest {
 
             assertEquals(theURL, pageURL);
 
-            assertEquals(false, thePeriod.hasDuration());
+            assertEquals(true, thePeriod.hasDuration());
             Calendar startDate = new GregorianCalendar(TimeZone.getTimeZone( "Europe/London" ));
             startDate.setTime(thePeriod.getStartDate());
             assertEquals(2012, startDate.get(Calendar.YEAR));
@@ -54,14 +55,24 @@ public class PageTest {
             assertEquals(21, startDate.get(Calendar.DAY_OF_MONTH));
             assertEquals(18, startDate.get(Calendar.HOUR_OF_DAY));
             assertEquals(30, startDate.get(Calendar.MINUTE));
+            
+            Calendar endDate = new GregorianCalendar(TimeZone.getTimeZone( "Europe/London" ));
+            endDate.setTime(thePeriod.getEndDate());
+            assertEquals(2012, endDate.get(Calendar.YEAR));
+            assertEquals(Calendar.JUNE, endDate.get(Calendar.MONTH));
+            assertEquals(21, endDate.get(Calendar.DAY_OF_MONTH));
+            assertEquals(19, endDate.get(Calendar.HOUR_OF_DAY));
+            assertEquals(49, endDate.get(Calendar.MINUTE));
 
             assert (thePosition.getLatitude().equalsIgnoreCase("55.941098"));
             assert (thePosition.getLongitude().equalsIgnoreCase("-3.217729"));
-            assert (theVenueName.equalsIgnoreCase("Cineworld 11"));
+            assert (theVenueName.equalsIgnoreCase("Cineworld"));
             
-            assert(thePage.getCountry().equalsIgnoreCase("USA"));
-            assert(thePage.getDirector().equalsIgnoreCase("Amy Seimetz"));
-            String theDuration = thePage.getDuration();
+            Map<String, String> extendedData = thePage.getExtendedData();
+            
+            assert(extendedData.get("Country").equalsIgnoreCase("USA"));
+            assert(extendedData.get("Director").equalsIgnoreCase("Amy Seimetz"));
+            String theDuration = extendedData.get("Duration");
             assert(theDuration.equalsIgnoreCase("79 mins"));
         } catch (MalformedURLException ex) {
             Logger.getLogger(PageTest.class.getName()).log(Level.SEVERE, null, ex);
@@ -83,7 +94,7 @@ public class PageTest {
             URL theURL = new URL("http://www.edfilmfest.org.uk/films/2012/killer-joe");
             Logger theLogger = Logger.getLogger(PageTest.class.getName());
 
-            FilmFestEventDetailPage thePage = new FilmFestEventDetailPage(theURL, "", theLogger);
+            IDetailPage thePage = new FilmFestEventDetailPage(theURL, "", theLogger);
 
             URL pageURL = thePage.getURL();
 
@@ -97,14 +108,22 @@ public class PageTest {
 
             assertEquals(theURL, pageURL);
 
-            assertEquals(false, thePeriod.hasDuration());
+            assertEquals(true, thePeriod.hasDuration());
             Calendar startDate = new GregorianCalendar(TimeZone.getTimeZone( "Europe/London" ));
             startDate.setTime(thePeriod.getStartDate());
             assertEquals(2012, startDate.get(Calendar.YEAR));
-            assertEquals(5, startDate.get(Calendar.MONTH));
+            assertEquals(Calendar.JUNE, startDate.get(Calendar.MONTH));
             assertEquals(20, startDate.get(Calendar.DAY_OF_MONTH));
             assertEquals(21, startDate.get(Calendar.HOUR_OF_DAY));
             assertEquals(30, startDate.get(Calendar.MINUTE));
+            
+            Calendar endDate = new GregorianCalendar(TimeZone.getTimeZone( "Europe/London" ));
+            endDate.setTime(thePeriod.getEndDate());
+            assertEquals(2012, endDate.get(Calendar.YEAR));
+            assertEquals(Calendar.JUNE, endDate.get(Calendar.MONTH));
+            assertEquals(20, endDate.get(Calendar.DAY_OF_MONTH));
+            assertEquals(23, endDate.get(Calendar.HOUR_OF_DAY));
+            assertEquals(13, endDate.get(Calendar.MINUTE));            
             
             DateFormat theDateFormat = new SimpleDateFormat("EEE MMM dd");
             theDateFormat.setTimeZone(TimeZone.getTimeZone("Europe/London"));
@@ -117,9 +136,11 @@ public class PageTest {
             assert (thePosition.getLongitude().equalsIgnoreCase("-3.18608"));
             assert (theVenueName.equalsIgnoreCase("Festival Theatre"));
             
-            assert(thePage.getCountry().equalsIgnoreCase("USA"));
-            assert(thePage.getDirector().equalsIgnoreCase("William Friedkin"));
-            String theDuration = thePage.getDuration();
+            Map<String, String> extendedData = thePage.getExtendedData();
+            
+            assert(extendedData.get("Country").equalsIgnoreCase("USA")); 
+            assert(extendedData.get("Director").equalsIgnoreCase("William Friedkin"));
+            String theDuration = extendedData.get("Duration");
             assert(theDuration.equalsIgnoreCase("103 mins"));
         } catch (MalformedURLException ex) {
             Logger.getLogger(PageTest.class.getName()).log(Level.SEVERE, null, ex);
@@ -141,7 +162,7 @@ public class PageTest {
             URL theURL = new URL("http://www.edfilmfest.org.uk/films?src=cal&date=2012-06-21");
             Logger theLogger = Logger.getLogger(PageTest.class.getName());
 
-            FilmFestEventListPage thePage = new FilmFestEventListPage(theURL, theLogger);
+            IListPage thePage = new FilmFestEventListPage(theURL, theLogger);
             List<HTMLLink> candidates = thePage.getCandidates();
             
             int candSize = candidates.size();
