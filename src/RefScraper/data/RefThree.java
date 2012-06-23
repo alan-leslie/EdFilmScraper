@@ -26,7 +26,6 @@ public class RefThree implements Comparable {
     private String theDirector = "";
     private String theCountry = "";
     private String theDuration = "";
-//    private String theVenueName = "";
     private String theDatePeriodString = "";
     private List<PlacePeriod> thePlacePeriods = null;
     
@@ -62,15 +61,8 @@ public class RefThree implements Comparable {
      */
     public RefThree(RefThree theOther) {
         theName = theOther.theName;
-//        if (theOther.thePosition == null) {
-//            thePosition = null;
-//        } else {
-//            thePosition = new Position(theOther.thePosition.getLatitude(), theOther.thePosition.getLongitude());
-//        }
         theLocationRef = theOther.theLocationRef;
-//        thePlace = theOther.thePlace;
         theURL = theOther.theURL;
-//        theVenueName = theOther.theVenueName;
         theDirector = theOther.theDirector;
         theDuration = theOther.theDuration;
         thePlacePeriods = theOther.thePlacePeriods;
@@ -85,7 +77,7 @@ public class RefThree implements Comparable {
      * timeline (XML)
      */
     
-    // TODO - use te venue name (not lat/lng) for the location string if it can be resolved
+    // TODO - get extended data from a map<string, string>
     public void outputAsXML(PrintStream ps,
             boolean asKML) {     
         if(!isComplete()){
@@ -259,14 +251,6 @@ public class RefThree implements Comparable {
     }
 
     /**
-     * 
-     * @return - the position 
-     */
-//    public Position getPosition() {
-//        return thePosition;
-//    }
-
-    /**
      * attempt to fill in all of the placemark data
      * @return - whether all of the required data has been completed
      */
@@ -289,24 +273,6 @@ public class RefThree implements Comparable {
             return false;
         }
     }
-
-    /**
-     * @return - whether all of the position data has been set
-     */
-//    private boolean isPositionSet() {
-//        return (thePosition != null && thePosition.isComplete());
-//    }
-
-    /**
-     * @return - whether all of the period data has been set
-     */
-//    private boolean isPeriodSet() {
-//        if(thePeriods != null && thePeriods.size() > 0){
-//            return true;
-//        }
-//    
-//        return false;
-//    }
 
     /**
      * @return - whether all of the required data has been set
